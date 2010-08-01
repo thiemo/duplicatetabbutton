@@ -3,45 +3,48 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Paul Kehrer</string>
+	<string>Thiemo Gamma</string>
 	<key>CFBundleDisplayName</key>
-	<string>Tab Duplicator</string>
+	<string>"Duplicate Tab" Button</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.languish.safari.tabduplicator</string>
+	<string>com.thiemo.safari.tabduplicator</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
+	<string>1</string>
 	<key>Chrome</key>
 	<dict>
-		<key>Context Menu Items</key>
+		<key>Global Page</key>
+		<string>index.html</string>
+		<key>Toolbar Items</key>
 		<array>
 			<dict>
 				<key>Command</key>
 				<string>tabDuplicator</string>
 				<key>Identifier</key>
 				<string>tabDuplicator</string>
-				<key>Title</key>
-				<string>Duplicate Tab</string>
+				<key>Image</key>
+				<string>ToolbarIcon.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Duplicate tab</string>
+				<key>Palette Label</key>
+				<string>Duplicate tab</string>
+				<key>Tool Tip</key>
+				<string>Duplicate the current tab</string>
 			</dict>
 		</array>
-		<key>Global Page</key>
-		<string>index.html</string>
 	</dict>
 	<key>Content</key>
 	<dict>
 		<key>Scripts</key>
-		<dict>
-			<key>Start</key>
-			<array>
-				<string>duplicator.js</string>
-			</array>
-		</dict>
+		<dict/>
 	</dict>
 	<key>Description</key>
-	<string>Contextual menu to duplicate current tab.</string>
+	<string>This toolbar button duplicates the current tab</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -55,8 +58,8 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://github.com/reaperhulk/Tab-Duplicator/raw/master/tab-duplicator-update.plist</string>
+	<string>http://thiemo.ch/safari/downloads/duplicatetabbutton/update.plist</string>
 	<key>Website</key>
-	<string>http://langui.sh/safari-extensions/</string>
+	<string>http://thiemo.ch/safari/</string>
 </dict>
 </plist>
