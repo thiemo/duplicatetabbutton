@@ -1,15 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>New Tab</title>
 <script type="text/javascript">
-safari.application.addEventListener("command",captureMessageEvent,false);
+//<![CDATA[
+function performCommand(event) {
+	if (event.command === "tabDuplicator") {
 
-function captureMessageEvent(event) {
-	if (event.command !== 'tabDuplicator') {
-		return;
-	}
+	
 	currentUrl = safari.application.activeBrowserWindow.activeTab.url;
 	
 	tabPosition = safari.extension.settings.getItem("tabPosition");
 	var tab = safari.application.activeBrowserWindow.openTab(tabPosition);
-	tab.url = event.userInfo
+	tab.url = currentUrl;
+	}
 }
 
+function validateCommand(event)
+{
+  if(event.command === "tabDuplicator")
+  {
+    // Disable the button if there is no URL loaded in the tab.
+    event.target.disabled = !event.target.browserWindow.activeTab.url;
+  }
+}
+
+safari.application.addEventListener("command",performCommand,false);
+safari.application.addEventListener("validate",validateCommand,false);
+//]]>
 </script>
+</head>
+<body>
+
+</body>
+</html>
