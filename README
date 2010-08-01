@@ -1,7 +1,8 @@
-Tab Duplicator
-Safari 5 extension that adds a contextual menu item to duplicate the current tab. Choose foreground/background tab positioning.
+"Dublicate tab" Button
+Safari 5 extension that adds a button to duplicate the current tab.
 
-    Copyright 2010 Paul Kehrer
+    "Dublicate tab" Button by Thiemo Gamma
+    Based on original Tab Duplicator Copyright 2010 Paul Kehrer
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
