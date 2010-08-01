@@ -8,11 +8,11 @@
 		<key>Key</key>
 		<string>tabPosition</string>
 		<key>Title</key>
-		<string>Duplicate Tab Position</string>
+		<string>Place new tab</string>
 		<key>Titles</key>
 		<array>
-			<string>Background</string>
-			<string>Foreground</string>
+			<string>in the background</string>
+			<string>in the foreground</string>
 		</array>
 		<key>Type</key>
 		<string>RadioButtons</string>
@@ -21,6 +21,16 @@
 			<string>background</string>
 			<string>foreground</string>
 		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>enableShortcut</string>
+		<key>Title</key>
+		<string>Enable Keyboard Shortcut (Option-A)</string>
+		<key>Type</key>
+		<string>CheckBox</string>
 	</dict>
 </array>
 </plist>
