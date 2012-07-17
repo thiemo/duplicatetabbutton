@@ -13,8 +13,8 @@ Once installed, click on the new button in the toolbar to duplicate your current
 
 #### Developers
 1. Get the sources from Github: `git clone git://github.com/thiemo/duplicatetabbutton.git`
-2. `rake` gives you a .safariextension directory
-3. Import this directory into Extension Builder
+2. `rake` gives you the `duplicatetabbutton.safariextension` directory
+3. Import `duplicatetabbutton.safariextension` into Extension Builder
 
 [1]: http://github.com/reaperhulk
 [2]: http://thiemo.ch/safari
