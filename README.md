@@ -11,7 +11,8 @@ Based on original Tab Duplicator by [Paul Kehrer][1].
 ### Usage
 Once installed, click on the new button in the toolbar to duplicate your currently open tab.
 
-#### Developers
+
+### Developers
 1. Get the sources from Github: `git clone git://github.com/thiemo/duplicatetabbutton.git`
 2. `rake` gives you the `duplicatetabbutton.safariextension` directory
 3. Import `duplicatetabbutton.safariextension` into Extension Builder
