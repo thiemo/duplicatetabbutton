@@ -6,15 +6,15 @@
    <array>
      <dict>
        <key>CFBundleIdentifier</key>
-       <string>com.languish.safari.tabduplicator</string>
+       <string>com.thiemo.safari.duplicatetabbutton</string>
        <key>Developer Identifier</key>
-       <string>QNW3Q9S88V</string>
+       <string>7G9C33WE5Z</string>
        <key>CFBundleVersion</key>
-       <string>2</string>
+       <string>1.1</string>
        <key>CFBundleShortVersionString</key>
        <string>1.1</string>
        <key>URL</key>
-       <string>http://github.com/downloads/reaperhulk/Tab-Duplicator/Tab-Duplicator-1.1.safariextz</string>
+       <string>http://thiemo.ch/blog/download/duplicatetabbutton-1.1.safariextz</string>
      </dict>
    </array>
 </dict>

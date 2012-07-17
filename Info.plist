@@ -4,16 +4,18 @@
 <dict>
 	<key>Author</key>
 	<string>Thiemo Gamma</string>
+	<key>Builder Version</key>
+	<string>7534.55.3</string>
 	<key>CFBundleDisplayName</key>
-	<string>"Duplicate Tab" Button</string>
+	<string>Duplicate Tab Button</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.thiemo.safari.tabduplicator</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>1.1</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
@@ -58,8 +60,8 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://thiemo.ch/safari/downloads/duplicatetabbutton/update.plist</string>
+	<string>http://thiemo.ch/blog/download/update.plist</string>
 	<key>Website</key>
-	<string>http://thiemo.ch/safari/</string>
+	<string>http://thiemo.ch/</string>
 </dict>
 </plist>
