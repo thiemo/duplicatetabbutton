@@ -12,7 +12,9 @@ Based on original Tab Duplicator by [Paul Kehrer][1].
 Once installed, click on the new button in the toolbar to duplicate your currently open tab.
 
 #### Developers
-If you want to build from source, use rake to get a .safariextension folder that Safari Extension Builder will accept.
+1. Get the sources from Github: `git clone git://github.com/thiemo/duplicatetabbutton.git`
+2. 'rake' gives you a .safariextension directory
+3. Import this directory into Extension Builder
 
 [1]: http://github.com/reaperhulk
 [2]: http://thiemo.ch/safari
