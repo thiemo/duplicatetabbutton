@@ -5,13 +5,9 @@ task :default do
   FileUtils.mkdir_p( build_dir )
 
   assets = [
-    "Icon-32.png",
-    "icon-48.png",
-    "Icon-64.png",
-    "index.html",
-    "Info.plist",
-    "Settings.plist",
-    "ToolbarIcon.png"
+    "etc/*",
+    "img/*",
+    "src/*"
   ]
 
   assets.each do |glob|
