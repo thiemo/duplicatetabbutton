@@ -1,5 +1,5 @@
-Forked project is copyright 2010 Paul Kehrer
-All changes to it in this fork are copyright 2010-2012 Thiemo Gamma
+Duplicate Tab Button
+Copyright 2010-2012 Thiemo Gamma
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -14,3 +14,10 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+
+This program incorporates work covered by the following copyright and
+permission notices:
+Tab-Duplicator is (c) 2010 Paul Kehrer
+https://github.com/reaperhulk/Tab-Duplicator
+Tab-Duplicator is released under the GPL (Version 2)
