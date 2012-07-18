@@ -8,20 +8,58 @@
 		<key>Key</key>
 		<string>tabPosition</string>
 		<key>Title</key>
-		<string>Open in</string>
+		<string>Duplicate my current tab into</string>
 		<key>Titles</key>
 		<array>
-			<string>New Tab (Background)</string>
-			<string>New Tab (Foreground)</string>
-			<string>New Window</string>
+			<string>a new tab and stay in old tab</string>
+			<string>a new tab and switch to it</string>
+			<string>a new window</string>
 		</array>
 		<key>Type</key>
-		<string>PopUpButton</string>
+		<string>RadioButtons</string>
 		<key>Values</key>
 		<array>
 			<string>background</string>
 			<string>foreground</string>
 			<string>newwindow</string>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<real>1</real>
+		<key>Key</key>
+		<string>tabIndex</string>
+		<key>Title</key>
+		<string>Place my new tab</string>
+		<key>Titles</key>
+		<array>
+			<string>to the right of the old tab</string>
+			<string>to the left of the old tab</string>
+		</array>
+		<key>Type</key>
+		<string>RadioButtons</string>
+		<key>Values</key>
+		<array>
+			<real>1</real>
+			<real>0.0</real>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<false/>
+		<key>Key</key>
+		<string>enableContextMenu</string>
+		<key>Title</key>
+		<string>Also show command in context menu</string>
+		<key>Titles</key>
+		<array>
+			<string>ads</string>
+		</array>
+		<key>Type</key>
+		<string>CheckBox</string>
+		<key>Values</key>
+		<array>
+			<string>asd</string>
 		</array>
 	</dict>
 </array>

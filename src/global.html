@@ -1,0 +1,73 @@
+<!--
+    File: global.html
+Abstract: Global page HTML file.
+ Version: 1.2
+
+Copyright (C) 2010-2012 Thiemo Gamma. All Rights Reserved.
+
+-->
+
+<!DOCTYPE HTML>
+
+<script type="text/javascript">
+
+// register event handlers with application
+safari.application.addEventListener("command",performCommand,false);
+safari.application.addEventListener("validate", validateHandler, true);
+
+function performCommand(event) {
+	// start if
+	if (event.command === "duplicateTab") { 
+	
+	var originalTab = safari.application.activeBrowserWindow.activeTab; // get URL of active tab
+	
+	var tabPosition = safari.extension.settings.getItem("tabPosition"); // read user's preference
+	var tabIndex = safari.extension.settings.getItem("tabIndex"); // read user's preference
+	
+	var tabIndex = tabIndex+currentTabIndex(); // to the right of current tab
+
+	
+	if (tabPosition === "newwindow") {
+		var newTab = safari.application.openBrowserWindow().activeTab; // open tab in a new window
+	} else {
+		var newTab = safari.application.activeBrowserWindow.openTab(tabPosition,tabIndex); // open tab in tabPosition
+	}
+	newTab.url = originalTab.url; // do it :-)
+	document.title = 'bla';
+	
+	}
+	// end if
+} //end performCommand()
+
+
+
+function currentTabIndex() {
+	var tabs = safari.application.activeBrowserWindow.tabs;
+	for (var i=0;i < tabs.length;i++) {
+		if (safari.application.activeBrowserWindow.activeTab == tabs[i]) {
+			return i;
+		}
+	}
+	return false;
+}
+
+
+
+function validateHandler(event)
+{
+	// Disable the button if there is no URL loaded in the tab.
+	if(event.command !== "duplicateTab")
+		return;
+		
+	try {
+		event.target.disabled = !event.target.browserWindow.activeTab.url;
+	} catch(e) {
+		//event.target.browserWindow.activeTab.url won't be valid for events originating from the context menu
+		event.target.disabled = !safari.application.activeBrowserWindow.activeTab.url;
+		event.target.disabled = !safari.extension.settings.enableContextMenu;
+	}
+	
+}
+
+
+</script>

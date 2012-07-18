@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Thiemo Gamma</string>
 	<key>Builder Version</key>
-	<string>7534.55.3</string>
+	<string>7534.57.2</string>
 	<key>CFBundleDisplayName</key>
 	<string>Duplicate Tab Button</string>
 	<key>CFBundleIdentifier</key>
@@ -13,20 +13,31 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>3</string>
 	<key>Chrome</key>
 	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>duplicateTab</string>
+				<key>Identifier</key>
+				<string>DuplicateTab</string>
+				<key>Title</key>
+				<string>Duplicate Tab</string>
+			</dict>
+		</array>
 		<key>Global Page</key>
-		<string>index.html</string>
+		<string>global.html</string>
 		<key>Toolbar Items</key>
 		<array>
 			<dict>
 				<key>Command</key>
-				<string>tabDuplicator</string>
+				<string>duplicateTab</string>
 				<key>Identifier</key>
-				<string>tabDuplicator</string>
+				<string>DuplicateTabButton</string>
 				<key>Image</key>
 				<string>ToolbarIcon.png</string>
 				<key>Include By Default</key>
@@ -46,7 +57,7 @@
 		<dict/>
 	</dict>
 	<key>Description</key>
-	<string>This toolbar button duplicates the current tab</string>
+	<string>A toolbar button to duplicate the current tab</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -60,7 +71,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://thiemo.ch/blog/download/update.plist</string>
+	<string>http://thiemo.ch/downloads/duplicatetabbutton/update.plist</string>
 	<key>Website</key>
 	<string>http://thiemo.ch/</string>
 </dict>

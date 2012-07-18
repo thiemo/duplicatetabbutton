@@ -6,15 +6,15 @@
    <array>
      <dict>
        <key>CFBundleIdentifier</key>
-       <string>com.thiemo.safari.duplicatetabbutton</string>
+       <string>com.thiemo.safari.tabduplicator</string>
        <key>Developer Identifier</key>
        <string>7G9C33WE5Z</string>
        <key>CFBundleVersion</key>
-       <string>1.1</string>
+       <string>3</string>
        <key>CFBundleShortVersionString</key>
-       <string>1.1</string>
+       <string>1.2</string>
        <key>URL</key>
-       <string>http://thiemo.ch/blog/download/duplicatetabbutton-1.1.safariextz</string>
+       <string>http://thiemo.ch/downloads/duplicatetabbutton/duplicatetabbutton-1.2.safariextz</string>
      </dict>
    </array>
 </dict>
