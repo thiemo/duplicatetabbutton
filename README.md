@@ -1,5 +1,5 @@
-Duplicate Tab Button by Thiemo Gamma
-====================================
+Duplicate Tab Button ![preview thumb](http://i.imgur.com/tsvQe.png) by Thiemo Gamma
+===================================================================================
 
 Safari 5 extension that adds a button to duplicate the current tab.
 Based on original Tab Duplicator by [Paul Kehrer][1].
