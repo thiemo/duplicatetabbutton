@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Thiemo Gamma</string>
 	<key>Builder Version</key>
-	<string>7534.57.2</string>
+	<string>7536.19</string>
 	<key>CFBundleDisplayName</key>
 	<string>Duplicate Tab Button</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.2</string>
+	<string>2.0</string>
 	<key>CFBundleVersion</key>
-	<string>3</string>
+	<string>4</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Context Menu Items</key>
@@ -71,7 +71,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://thiemo.ch/downloads/duplicatetabbutton/update.plist</string>
+	<string>https://raw.github.com/thiemo/duplicatetabbutton/master/update.plist</string>
 	<key>Website</key>
 	<string>http://thiemo.ch/</string>
 </dict>

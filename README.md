@@ -19,3 +19,9 @@ Once installed, click on the new button in the toolbar to duplicate your current
 
 [1]: http://github.com/reaperhulk
 [2]: http://thiemo.ch/safari
+
+
+VERSION HISTORY
+---------------
+
+* 2.0 New graphics. Retina display support.
