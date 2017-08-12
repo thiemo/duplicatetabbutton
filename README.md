@@ -18,7 +18,7 @@ Once installed, click on the new button in the toolbar to duplicate your current
 3. Import `duplicatetabbutton.safariextension` into Extension Builder
 
 [1]: http://github.com/reaperhulk
-[2]: http://thiemo.ch/safari
+[2]: https://github.com/thiemo/duplicatetabbutton/releases/download/untagged-3a1b50529a382ba76e08/Duplicate.Tab.Button.2.0.safariextz
 
 
 VERSION HISTORY
